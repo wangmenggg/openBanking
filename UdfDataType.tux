@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:trufun="http://trufun" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_GPjqQGXuEeubquNTxiZSJg" name="UdfDataType">
+  <eAnnotations xmi:id="_M5Jc4GjtEeu1koME8RPGPQ" source="Diagrams">
+    <contents xmi:type="trufun:TClassDiagram" xmi:id="_M5Jc4WjtEeu1koME8RPGPQ" id="_M5DWQGjtEeu1koME8RPGPQ" owner="_GPjqQGXuEeubquNTxiZSJg" name="main" zoom="1.0" gridSpacing="22,22">
+      <nodes xmi:type="trufun:TPackageNode" xmi:id="_0xf1gGjuEeu1koME8RPGPQ" owner="_qRidwGjuEeu1koME8RPGPQ" name="DataType" location="293,158" size="99,53">
+        <fillColor xmi:id="_0xf1gWjuEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_0xf1gmjuEeu1koME8RPGPQ"/>
+        <fontColor xmi:id="_0xf1g2juEeu1koME8RPGPQ"/>
+        <stereotypeNodes xmi:id="_0xf1hGjuEeu1koME8RPGPQ"/>
+      </nodes>
+      <nodes xmi:type="trufun:TPackageNode" xmi:id="_1KSwAGjuEeu1koME8RPGPQ" owner="_tm4B4GjuEeu1koME8RPGPQ" name="Enumeration" location="498,159" size="129,53">
+        <fillColor xmi:id="_1KSwAWjuEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+        <lineColor xmi:id="_1KSwAmjuEeu1koME8RPGPQ"/>
+        <fontColor xmi:id="_1KSwA2juEeu1koME8RPGPQ"/>
+        <stereotypeNodes xmi:id="_1KSwBGjuEeu1koME8RPGPQ"/>
+      </nodes>
+      <leftRuler xmi:id="_M5Jc4mjtEeu1koME8RPGPQ" unit="2"/>
+      <topRuler xmi:id="_M5Jc42jtEeu1koME8RPGPQ" horizontal="true" unit="2"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qRidwGjuEeu1koME8RPGPQ" name="DataType">
+    <eAnnotations xmi:id="_6rP3IGjuEeu1koME8RPGPQ" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_6rP3IWjuEeu1koME8RPGPQ" id="_6rJwgGjuEeu1koME8RPGPQ" owner="_qRidwGjuEeu1koME8RPGPQ" name="main" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TDataTypeNode" xmi:id="_EG7HYWjvEeu1koME8RPGPQ" owner="_EG7HYGjvEeu1koME8RPGPQ" name="UdfAcctNo" location="44,35" size="131,49" keepMaxSize="false">
+          <fillColor xmi:id="_EG7HYmjvEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_EG7HY2jvEeu1koME8RPGPQ"/>
+          <fontColor xmi:id="_EG7HZGjvEeu1koME8RPGPQ"/>
+          <stereotypeNodes xmi:id="_EG7HZWjvEeu1koME8RPGPQ" id="_EG7HYGjvEeu1koME8RPGPQ"/>
+          <operationCompartmentNode xmi:id="_EG7HZmjvEeu1koME8RPGPQ"/>
+          <attributeCompartmentNode xmi:id="_EG7HZ2jvEeu1koME8RPGPQ">
+            <attributes xmi:id="_JiuowGjvEeu1koME8RPGPQ" owner="_JicU4GjvEeu1koME8RPGPQ" name="base : string  = string" keepMaxSize="false"/>
+            <attributes xmi:id="_NnjwIGjvEeu1koME8RPGPQ" owner="_NnRcQGjvEeu1koME8RPGPQ" name="length : int  = 35"/>
+            <attributes xmi:id="_PLgPIGjvEeu1koME8RPGPQ" owner="_PLN7QGjvEeu1koME8RPGPQ" name="ref : string  = ISO20022::AccountIdentification"/>
+          </attributeCompartmentNode>
+        </nodes>
+        <nodes xmi:type="trufun:TDataTypeNode" xmi:id="_Z9fLAWjvEeu1koME8RPGPQ" owner="_Z9fLAGjvEeu1koME8RPGPQ" name="UdfAmount" location="43,115" size="399,125" autoResize="true">
+          <fillColor xmi:id="_Z9fLAmjvEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_Z9fLA2jvEeu1koME8RPGPQ"/>
+          <fontColor xmi:id="_Z9fLBGjvEeu1koME8RPGPQ"/>
+          <stereotypeNodes xmi:id="_Z9fLBWjvEeu1koME8RPGPQ" id="_Z9fLAGjvEeu1koME8RPGPQ"/>
+          <operationCompartmentNode xmi:id="_Z9fLBmjvEeu1koME8RPGPQ"/>
+          <attributeCompartmentNode xmi:id="_Z9fLB2jvEeu1koME8RPGPQ">
+            <attributes xmi:id="_eBpkAGjvEeu1koME8RPGPQ" owner="_eBjdYGjvEeu1koME8RPGPQ" name="base : double"/>
+            <attributes xmi:id="_frIDQGjvEeu1koME8RPGPQ" owner="_fq1vYGjvEeu1koME8RPGPQ" name="length : int  = 18"/>
+            <attributes xmi:id="_hI96QGjvEeu1koME8RPGPQ" owner="_hIrmYGjvEeu1koME8RPGPQ" name="decimal : int  = 5"/>
+            <attributes xmi:id="_iKY7AGjvEeu1koME8RPGPQ" owner="_iKGnIGjvEeu1koME8RPGPQ" name="ref : string  = ISO20022::CurrencyAndAmount"/>
+          </attributeCompartmentNode>
+        </nodes>
+        <nodes xmi:type="trufun:TDataTypeNode" xmi:id="_nKuoYWjvEeu1koME8RPGPQ" owner="_nKuoYGjvEeu1koME8RPGPQ" name="UdfBalance" location="64,293" size="319,125" autoResize="true">
+          <fillColor xmi:id="_nKuoYmjvEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_nKuoY2jvEeu1koME8RPGPQ"/>
+          <fontColor xmi:id="_nKuoZGjvEeu1koME8RPGPQ"/>
+          <stereotypeNodes xmi:id="_nKuoZWjvEeu1koME8RPGPQ" id="_nKuoYGjvEeu1koME8RPGPQ"/>
+          <operationCompartmentNode xmi:id="_nKuoZmjvEeu1koME8RPGPQ"/>
+          <attributeCompartmentNode xmi:id="_nKuoZ2jvEeu1koME8RPGPQ">
+            <attributes xmi:id="_pGIlIWjvEeu1koME8RPGPQ" owner="_pGIlIGjvEeu1koME8RPGPQ" name="base : double"/>
+            <attributes xmi:id="_rU5iwGjvEeu1koME8RPGPQ" owner="_rUnO4GjvEeu1koME8RPGPQ" name="length : int  = 18"/>
+            <attributes xmi:id="_sbL1YGjvEeu1koME8RPGPQ" owner="_sa5hgGjvEeu1koME8RPGPQ" name="decimal : int  = 5"/>
+            <attributes xmi:id="_tXXJwGjvEeu1koME8RPGPQ" owner="_tXE14GjvEeu1koME8RPGPQ" name="ref : string  = ISO20022::Balance"/>
+          </attributeCompartmentNode>
+        </nodes>
+        <leftRuler xmi:id="_6rP3ImjuEeu1koME8RPGPQ" unit="2"/>
+        <topRuler xmi:id="_6rP3I2juEeu1koME8RPGPQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_EG7HYGjvEeu1koME8RPGPQ" name="UdfAcctNo">
+      <ownedAttribute xmi:id="_JicU4GjvEeu1koME8RPGPQ" name="base" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_NMMCwGjvEeu1koME8RPGPQ" value="string"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_NnRcQGjvEeu1koME8RPGPQ" name="length" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_OnEsYGjvEeu1koME8RPGPQ" value="35"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PLN7QGjvEeu1koME8RPGPQ" name="ref" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_ReXpoGjvEeu1koME8RPGPQ" value="ISO20022::AccountIdentification"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_Z9fLAGjvEeu1koME8RPGPQ" name="UdfAmount">
+      <ownedAttribute xmi:id="_eBjdYGjvEeu1koME8RPGPQ" name="base" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3XxLYVuUEeuaC67j0unbng"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_fq1vYGjvEeu1koME8RPGPQ" name="length" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gm69IGjvEeu1koME8RPGPQ" value="18"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_hIrmYGjvEeu1koME8RPGPQ" name="decimal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1H1oGjvEeu1koME8RPGPQ" value="5"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_iKGnIGjvEeu1koME8RPGPQ" name="ref" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_kNVDIGjvEeu1koME8RPGPQ" value="ISO20022::CurrencyAndAmount"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nKuoYGjvEeu1koME8RPGPQ" name="UdfBalance">
+      <ownedAttribute xmi:id="_pGIlIGjvEeu1koME8RPGPQ" name="base" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3XxLYVuUEeuaC67j0unbng"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_rUnO4GjvEeu1koME8RPGPQ" name="length" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_sK-PIGjvEeu1koME8RPGPQ" value="18"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_sa5hgGjvEeu1koME8RPGPQ" name="decimal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_tLQAYGjvEeu1koME8RPGPQ" value="5"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tXE14GjvEeu1koME8RPGPQ" name="ref" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_u408gGjvEeu1koME8RPGPQ" value="ISO20022::Balance"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tm4B4GjuEeu1koME8RPGPQ" name="Enumeration">
+    <eAnnotations xmi:id="_8aKQAWjuEeu1koME8RPGPQ" source="Diagrams">
+      <contents xmi:type="trufun:TClassDiagram" xmi:id="_8aKQAmjuEeu1koME8RPGPQ" id="_8aKQAGjuEeu1koME8RPGPQ" owner="_tm4B4GjuEeu1koME8RPGPQ" name="main" zoom="1.0" gridSpacing="22,22">
+        <nodes xmi:type="trufun:TEnumarationNode" xmi:id="_3KyLoWjvEeu1koME8RPGPQ" owner="_3KyLoGjvEeu1koME8RPGPQ" name="UdfCcyCode" location="63,23" size="138,106" autoResize="true">
+          <fillColor xmi:id="_3KyLomjvEeu1koME8RPGPQ" r="255" g="255" b="255"/>
+          <lineColor xmi:id="_3KyLo2jvEeu1koME8RPGPQ"/>
+          <fontColor xmi:id="_3KyLpGjvEeu1koME8RPGPQ"/>
+          <stereotypeNodes xmi:id="_3KyLpWjvEeu1koME8RPGPQ" id="_3KyLoGjvEeu1koME8RPGPQ"/>
+          <literalCompartmentNode xmi:id="_3KyLpmjvEeu1koME8RPGPQ">
+            <literalNodes xmi:id="_5bAsYWjwEeu1koME8RPGPQ" owner="_5bAsYGjwEeu1koME8RPGPQ" name="CNY"/>
+            <literalNodes xmi:id="_EXAf4WjxEeu1koME8RPGPQ" owner="_EXAf4GjxEeu1koME8RPGPQ" name="USD"/>
+            <literalNodes xmi:id="_NPNPoWjxEeu1koME8RPGPQ" owner="_NPNPoGjxEeu1koME8RPGPQ" name="EUR"/>
+          </literalCompartmentNode>
+        </nodes>
+        <leftRuler xmi:id="_8aKQA2juEeu1koME8RPGPQ" unit="2"/>
+        <topRuler xmi:id="_8aKQBGjuEeu1koME8RPGPQ" horizontal="true" unit="2"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_3KyLoGjvEeu1koME8RPGPQ" name="UdfCcyCode">
+      <eAnnotations xmi:id="_I-5tgGjwEeu1koME8RPGPQ" source="TaggedValues"/>
+      <ownedAttribute xmi:id="__sGFYGjvEeu1koME8RPGPQ" name="base" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BYn4oGjwEeu1koME8RPGPQ" name="length" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_FTDt4GjwEeu1koME8RPGPQ" value="3"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_FvYdgGjwEeu1koME8RPGPQ" name="ref" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_HSRzoGjwEeu1koME8RPGPQ" value="ISO20022::CurrencyCode"/>
+      </ownedAttribute>
+      <ownedLiteral xmi:id="_5bAsYGjwEeu1koME8RPGPQ" name="CNY"/>
+      <ownedLiteral xmi:id="_EXAf4GjxEeu1koME8RPGPQ" name="USD"/>
+      <ownedLiteral xmi:id="_NPNPoGjxEeu1koME8RPGPQ" name="EUR"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_SeZGwGjwEeu1koME8RPGPQ" name="UdfDrCrCode">
+      <eAnnotations xmi:id="_cv2vgGjwEeu1koME8RPGPQ" source="TaggedValues"/>
+      <ownedAttribute xmi:id="_VhCYYGjwEeu1koME8RPGPQ" name="base" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XXlDQGjwEeu1koME8RPGPQ" name="length" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R-1uUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_YlTaoGjwEeu1koME8RPGPQ" value="4"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZIx7IGjwEeu1koME8RPGPQ" name="ref" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="design/deposit.tmx#_3X3R_luUEeuaC67j0unbng"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_adwKAGjwEeu1koME8RPGPQ" value="ISO20022::DebitCreditCode"/>
+      </ownedAttribute>
+      <ownedLiteral xmi:id="_TOM9oGjxEeu1koME8RPGPQ" name="DBIT"/>
+      <ownedLiteral xmi:id="_VRhgQGjxEeu1koME8RPGPQ" name="CRDT"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Package>

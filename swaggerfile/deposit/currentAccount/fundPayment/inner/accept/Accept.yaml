@@ -1,0 +1,83 @@
+swagger: '2.0'
+info:
+  version: 2.0.0
+  title: deposit
+  description: This is the deposit service.
+host: www.spdb.com.cn
+basePath: /currentAccount/fundPayment/inner/accept
+schemes:
+  -  https
+paths:
+  /fundTransferReverse:
+    post:
+       summary: This is the fundTransferReverse operation.
+       description: This is the fundTransferReverse operation.
+       parameters:
+        - in: body
+          name: body
+          required: true
+          description: Accept request playload
+          schema:
+            type: object
+            properties:
+              tranReferenceNo:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              tranDate:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+       responses:
+         200:
+           description: successful processing output information
+           schema:
+             type: object
+             properties:
+               tranReferenceNo:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+               tranTime:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+  /fundTransferService:
+    post:
+       summary: This is the fundTransferService operation.
+       description: This is the fundTransferService operation.
+       parameters:
+        - in: body
+          name: body
+          required: true
+          description: Accept request playload
+          schema:
+            type: object
+            properties:
+              account:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              user:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              currency:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              amount:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              payee:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              payeeAccount:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+       responses:
+         200:
+           description: successful processing output information
+           schema:
+             type: object
+             properties:
+               tranReferenceNo:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+               fee:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+

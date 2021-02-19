@@ -1,0 +1,44 @@
+swagger: '2.0'
+info:
+  version: 2.0.0
+  title: deposit
+  description: This is the deposit service.
+host: www.spdb.com.cn
+basePath: /currentAccount/agreementManage/open/apply
+schemes:
+  -  https
+paths:
+  /accountOpenService:
+    post:
+       summary: This is the accountOpenService operation.
+       description: This is the accountOpenService operation.
+       parameters:
+        - in: body
+          name: body
+          required: true
+          description: Apply request playload
+          schema:
+            type: object
+            properties:
+              userNO:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              openDate:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+              userName:
+                type: string
+                description: fixed description aaaaaaaaaaaaaa
+       responses:
+         200:
+           description: successful processing output information
+           schema:
+             type: object
+             properties:
+               tranReferenceNO:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+               accountNo:
+                 type: string
+                 description: fixed description aaaaaaaaaaaaaa
+
